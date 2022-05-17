@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+
+        <link href="css/styles.css" rel="stylesheet">
         <title>Ristorante Con Fusion: About Us</title>
     </head>
 
     <body>
+        <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item active"><li class="nav-item"><a class="nav-link" href="/aboutus.html">About</a></1i>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
         <header class="jumbotron">
             <div class="container">
                 <div class="row row-header">
@@ -21,16 +48,17 @@
                 </div>
             </div>
         </header>
-        <div>
-            <div>
-                <div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
                     <h3>About Us</h3>
                     <hr />
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div class="row">
+                <div class="col-12 col-sm-4 order-sm-last col-md-6">
                     <h2>Our History</h2>
                     <p>
                         Started in 2010, Ristorante con Fusion quickly
@@ -52,8 +80,8 @@
                 <div></div>
             </div>
 
-            <div>
-                <div>
+            <div class="row">
+                <div class="col col-sm order-sm-first col-md">
                     <h2>Corporate Leadership</h2>
                     <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
                     <p>
@@ -155,5 +183,12 @@
                 </div>
             </div>
         </footer>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
     </body>
 </html>
