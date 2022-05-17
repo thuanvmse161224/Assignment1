@@ -8,9 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "author": "thuanvmse161224",
   "license": "ISC",
-    "devDependencies": {
-    "lite-server": "^2.3.0"
-  }
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuanvmse161224/Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thuanvmse161224/Assignment1/issues"
+  },
+  "homepage": "https://github.com/thuanvmse161224/Assignment1#readme"
 }
