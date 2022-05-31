@@ -1,9 +1,9 @@
-.row_header{
+.row-header{
     margin:0px auto;
     padding:0px;
 }
 
-.row_content{
+.row-content{
     margin:0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
